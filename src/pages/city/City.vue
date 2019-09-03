@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     getCityInfo () {
-      axios.get('api/city.json').then(this.getCityInfoSucc)
+      axios.get('https://hhx123.github.io/travelvue/static/mock/city.json').then(this.getCityInfoSucc)
     },
     getCityInfoSucc (res) {
       res = res.data
